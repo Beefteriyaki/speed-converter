@@ -5,6 +5,7 @@ converter.addEventListener("click", function(){
     const mph = document.querySelector(".mph").value;
     const mps = document.querySelector(".mps").value;
     const knots = document.querySelector(".Knots").value;
-console.log(document.querySelector(".Knots").value);
+
    console.log(kmph, mph, mps, knots);
+
 });
