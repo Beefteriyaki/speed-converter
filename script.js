@@ -1,11 +1,12 @@
-const converter = document.querySelector(".convert");
+const converter = document.querySelector('.convert'); //convert button element
 
 converter.addEventListener("click", function(){
-    const kmph = document.querySelector(".Kmph").value;
-    const mph = document.querySelector(".mph").value;
-    const mps = document.querySelector(".mps").value;
-    const knots = document.querySelector(".Knots").value;
 
-   console.log(kmph, mph, mps, knots);
+const kilometres = document.querySelector(".Kmph").value; //speed in kmph
+const miles = document.querySelector(".mph").value; // speed in mph
+const metres = document.querySelector(".mps").value; //speed in metres per second
+const knot = document.querySelector(".Knots").value;    //speed in knots
+
+console.log(kilometres, miles, metres, knot);
 
 });
