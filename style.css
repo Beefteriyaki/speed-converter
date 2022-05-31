@@ -4,4 +4,10 @@ body{
 
 h1{
     color: chartreuse;
+    margin-left: 30rem;
+}
+
+h4{
+    color: darkorange;
+    margin-left: 15rem;
 }
