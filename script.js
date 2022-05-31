@@ -1,5 +1,5 @@
 const converter = document.querySelector('.convert'); //convert button element
-
+const reset = document.querySelector('.reset'); //reset button
 converter.addEventListener("click", function(){
 
 let kilometres = Number(document.querySelector(".Kmph").value); //speed in kmph
@@ -59,4 +59,13 @@ else{
     document.querySelector(".Knots").value = knot;
 }
 
+});
+
+
+reset.addEventListener("click", function(){
+
+    document.querySelector(".Kmph").value = 0;
+    document.querySelector(".mph").value = 0;
+    document.querySelector(".mps").value = 0;
+    document.querySelector(".Knots").value = 0; 
 });
