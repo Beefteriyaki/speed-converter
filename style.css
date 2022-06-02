@@ -7,7 +7,20 @@ h1{
     margin-left: 30rem;
 }
 
-h4{
-    color: darkorange;
+
+
+.input{
     margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.convert{
+    margin-left: 32.5rem;
+    margin-top: 5.15rem;
+}
+
+p{
+    color: bisque;
+    font-size: medium;
+    margin-left: 14rem;
 }
