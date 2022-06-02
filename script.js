@@ -64,8 +64,8 @@ else{
 
 reset.addEventListener("click", function(){
 
-    document.querySelector(".Kmph").value = 0;
-    document.querySelector(".mph").value = 0;
-    document.querySelector(".mps").value = 0;
-    document.querySelector(".Knots").value = 0; 
+    document.querySelector(".Kmph").value = null;
+    document.querySelector(".mph").value = null;
+    document.querySelector(".mps").value = null;
+    document.querySelector(".Knots").value = null; 
 });
